@@ -1,82 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GoldWhale Token | Official Website</title>
-  <meta name="description" content="GoldWhale is a meme-inspired token symbolizing power, humor, and digital wealth within the Binance Smart Chain ecosystem." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoldWhale Token | Dive Into the Binance Ocean</title>
+  <meta name="description" content="GoldWhale is a community-driven meme token on Binance Smart Chain, symbolizing strength, humor and digital wealth." />
   <link rel="icon" href="./Untitled.svg" type="image/svg+xml" />
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0c0c0c;
-      color: #f1f1f1;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
+    /* RESET BÁSICO */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Arial', sans-serif; line-height:1.6; color:#fff; background:#111; }
+    a { text-decoration:none; color:#ffd700; }
+    ul { list-style:none; }
+
+    /* CONTENEDOR CENTRAL */
+    .container { max-width:1200px; margin:0 auto; padding:20px; }
+
     header {
-      padding: 30px 0;
+      text-align:center; padding:60px 20px;
     }
-    img {
-      width: 120px;
-      margin-top: 10px;
+    header img { width:100px; }
+    header h1 { font-size:3rem; margin-top:20px; color:#ffd700; }
+    header p { font-size:1.2rem; color:#ccc; }
+
+    .buttons {
+      margin-top:30px;
     }
-    section {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 20px;
-      line-height: 1.6;
+    .buttons a {
+      display:inline-block; margin:0 10px; padding:15px 30px; border:2px solid #ffd700; border-radius:30px; color:#ffd700;
+      transition: background 0.3s, color 0.3s;
     }
-    a {
-      color: #ffd700;
-      text-decoration: none;
+    .buttons a:hover {
+      background:#ffd700; color:#111;
     }
+
+    .section {
+      padding:60px 20px; text-align:center;
+    }
+    .section.light {
+      background:#222;
+    }
+    .section h2 { font-size:2.5rem; margin-bottom:20px; color:#ffd700; }
+    .section p { font-size:1.1rem; color:#ccc; max-width:800px; margin:0 auto; }
+
+    .about-list {
+      display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:40px;
+    }
+    .about-list .item {
+      background:#1a1a1a; padding:30px; border-radius:10px; width:280px;
+    }
+    .about-list .item h3 { font-size:1.3rem; color:#ffd700; margin-bottom:10px; }
+    .about-list .item p { font-size:1rem; color:#ddd; }
+
     footer {
-      margin-top: 40px;
-      padding: 10px;
-      border-top: 1px solid #444;
-      color: #aaa;
-      font-size: 14px;
+      text-align:center; padding:40px 20px; background:#111;
+      font-size:0.9rem; color:#555;
+    }
+
+    @media (max-width:768px) {
+      header h1 { font-size:2.2rem; }
+      .about-list { flex-direction:column; }
+      .about-list .item { width:90%; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="./Untitled.svg" alt="GoldWhale logo" />
+
+  <header class="container">
+    <img src="./Untitled.svg" alt="GoldWhale Logo" />
     <h1>GoldWhale Token</h1>
-    <h3>$GWH</h3>
+    <p>Dive into the Binance Smart Chain ocean with strength, humor and digital wealth.</p>
+    <div class="buttons">
+      <a href="https://goldwhaletoken.netlify.app">Website</a>
+      <a href="https://twitter.com/goldwhaletoken" target="_blank">Follow on Twitter</a>
+    </div>
   </header>
 
-  <section>
-    <p>
-      <strong>GoldWhale</strong> is a meme-inspired token symbolizing power, humor, and digital wealth within the Binance Smart Chain ecosystem.
-      It aims to build a fun and community-driven project that rewards holders and strengthens engagement in the crypto space.
-    </p>
+  <section class="section light">
+    <div class="container">
+      <h2>Why GoldWhale?</h2>
+      <p>GoldWhale is a community-driven meme token built on Binance Smart Chain (BEP-20). It symbolizes the mix of whale power and meme culture — fun, engaged community, transparency, and playful digital wealth.</p>
+      <div class="about-list">
+        <div class="item">
+          <h3>Contract Address</h3>
+          <p>0xAc401743d9eA61491d4FDB1118aC1a66a0d69157</p>
+        </div>
+        <div class="item">
+          <h3>Total Supply</h3>
+          <p>1,000,000,000 GWH</p>
+        </div>
+        <div class="item">
+          <h3>Decimals</h3>
+          <p>18</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <h2>Token Information</h2>
-    <ul style="list-style:none; padding:0;">
-      <li><strong>Contract Address:</strong> 0xac401743d9ea61491d4fdb1118ac1a66a0d69157</li>
-      <li><strong>Network:</strong> Binance Smart Chain (BEP-20)</li>
-      <li><strong>Total Supply:</strong> 1,000,000,000 GWH</li>
-      <li><strong>Decimals:</strong> 18</li>
-    </ul>
-
-    <h2>Official Links</h2>
-    <p>
-      📧 Email: <a href="mailto:goldwhaletoken@gmail.com">goldwhaletoken@gmail.com</a><br /
-      🐦 X: <a href="#">twitter.com/goldwhaletoken</a><br />
-    </p>
-
-    <h2>About the Team</h2>
-    <p>
-      GoldWhale was founded by a small team of crypto enthusiasts and developers passionate about bringing fun and creativity to the Binance Smart Chain. 
-      The project promotes transparency, community growth, and decentralized engagement.
-    </p>
+  <section class="section">
+    <div class="container">
+      <h2>Stay Connected</h2>
+      <p>Join our community on social media and follow the journey of GoldWhale.</p>
+      <div class="buttons">
+        <a href="https://discord.gg/MpH7D4VsfU" target="_blank">Discord</a>
+        <a href="https://t.me/GoldWhaleCommunity" target="_blank">Telegram</a>
+      </div>
+    </div>
   </section>
 
   <footer>
-    © 2025 GoldWhale Token | All Rights Reserved
+    <div class="container">
+      <p>© 2025 GoldWhale Token | All Rights Reserved</p>
+      <p>Designed with 🐋 by the GoldWhale Team</p>
+    </div>
   </footer>
+
 </body>
 </html>
