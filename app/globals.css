@@ -1,0 +1,15 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #111827;
+  font-family: theme('fontFamily.pixel');
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
